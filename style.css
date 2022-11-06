@@ -1,0 +1,76 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: xx-large;
+	border-bottom: 5px solid hotpink; 
+	text-align: center;  
+}
+
+img{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: hotpink;
+  border-color: hotpink;
+}
+
+.btn-primary:hover {
+  background-color: grey;
+  border-color: grey;
+  border-width: 4px;
+  text-align: center;
+}
+
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+
+.btn2 {
+	color: #e95950;
+	  font-weight: 700;
+      border-radius: 300px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #8a3ab9;
+  border-color: #8a3ab9;
+  padding: 1rem 2rem;
+}
+
+.btn3 {
+	color: #ff0050;
+	  font-weight: 700;
+      border-radius: 300px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #00f23a;
+  border-color: #000000;
+  padding: 1rem 2rem;
+}
+
+ul {
+	list-style: none;
+	display: inline-block;
+}
+
